@@ -1,9 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="152" inline="false" x="67" y="67">
-    <field name="MODE">WHILE</field>
-    <value name="NUMBER">
-      <block type="math_number" id="134">
-        <field name="NUM">2</field>
+  <block type="controls_repeat" id="170" inline="true" x="304" y="127">
+    <value name="TIMES">
+      <block type="math_number" id="190">
+        <field name="NUM">3000</field>
       </block>
     </value>
     <statement name="DO">
