@@ -1,7 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="66" x="160" y="82">
-    <next>
-      <block type="movement_stutter" id="46"></block>
-    </next>
+  <block type="controls_whileUntil" id="152" inline="false" x="67" y="67">
+    <field name="MODE">WHILE</field>
+    <value name="NUMBER">
+      <block type="math_number" id="134">
+        <field name="NUM">2</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="76"></block>
+    </statement>
   </block>
 </xml>
